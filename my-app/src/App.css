@@ -28,15 +28,14 @@
   font-size: calc(5px + 2vmin);
   color: black;
   font-family: 'Pixelify Sans', sans-serif; /* Use the Google Font */
- 
   
 }
 .Paragraph-Description{
+  border-radius: 30px; /* Makes the corners rounded */
   margin: 50px; /* Adds space around the entire element */
   padding: 50px; /* Adds space inside the element between its content and border */
   background-color: #C6E3EC; /* Optional: adds a light background for visualization */
-  border-radius: 5px; /* Optional: rounds the corners */
-
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
 
 .Header-title {
@@ -48,6 +47,10 @@
   padding: 0; /* Remove default padding */
   font-size: calc(20px + 4vmin);
   background-color: #C6E3EC; /* Optional: adds a light background for visualization */
+  border-radius: 15px; /* Makes the corners rounded */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+
+
 }
 
 .App-link {
@@ -66,8 +69,8 @@
 .line-input {
   width: 600px;
   border: none;
-  border-bottom: 2px solid #000; /* Adds the underline */
-  padding: 5px 0;
+  border-bottom: 3px solid #000; /* Adds the underline */
+  padding: 7px 0;
   outline: none;
   background: none;
   font-size: 16px;
