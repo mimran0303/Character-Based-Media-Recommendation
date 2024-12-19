@@ -40,7 +40,7 @@
 
 .Header-title {
   position: absolute;
-  top: 100px; /* Moves it closer to the top of the screen */
+  top: 50px; /* Moves it closer to the top of the screen */
   left: 50%; /* Keeps it horizontally centered */
   transform: translateX(-50%); /* Centers the text */
   margin: 0; /* Remove default margins */
