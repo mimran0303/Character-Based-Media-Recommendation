@@ -15,6 +15,15 @@
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .App-header {
   background-image: url(C:\Users\fatim\source\repos\mbti-project\Character-Based-Media-Recommendation\my-app\src\ombre_bg.png);
   background-size: cover; /* Makes the image cover the entire area */
@@ -31,6 +40,7 @@
   
 }
 .Paragraph-Description{
+  animation: fadeIn 2s ease-in-out; /* Replace fadeIn with your desired animation */
   border-radius: 30px; /* Makes the corners rounded */
   margin: 50px; /* Adds space around the entire element */
   padding: 50px; /* Adds space inside the element between its content and border */
@@ -39,6 +49,7 @@
 }
 
 .Header-title {
+  animation: fadeIn 2s ease-in-out; /* Replace fadeIn with your desired animation */
   position: absolute;
   top: 50px; /* Moves it closer to the top of the screen */
   left: 50%; /* Keeps it horizontally centered */
@@ -67,6 +78,7 @@
 }
 
 .line-input {
+  animation: fadeIn 2s ease-in-out; /* Replace fadeIn with your desired animation */
   width: 600px;
   border: none;
   border-bottom: 3px solid #000; /* Adds the underline */
@@ -89,6 +101,7 @@
 }
 
 .button {
+  animation: fadeIn 2s ease-in-out; /* Replace fadeIn with your desired animation */
   width: 300px; /* Set the desired width */
   background-color: #000; /* Default background color */
   color: #fff; /* Default text color */
