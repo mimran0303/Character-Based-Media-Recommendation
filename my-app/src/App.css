@@ -16,7 +16,6 @@
 }
 
 .App-header {
-  /*background-color: #282c34;*/
   background-image: url(C:\Users\fatim\source\repos\mbti-project\Character-Based-Media-Recommendation\my-app\src\ombre_bg.png);
   background-size: cover; /* Makes the image cover the entire area */
   background-position: center; /* Centers the image */
@@ -29,6 +28,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: 'Pixelify Sans', sans-serif; /* Use the Google Font */
+  
+}
+
+.Header-title {
+  position: absolute;
+  top: 100px; /* Moves it closer to the top of the screen */
+  left: 50%; /* Keeps it horizontally centered */
+  transform: translateX(-50%); /* Centers the text */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  font-size: calc(20px + 4vmin);
 }
 
 .App-link {

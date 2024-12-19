@@ -5,6 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <div className="Header-title">
+      <h1>✨ CharacterQuest AI ✨</h1>
+      </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit src/App.js and save to reload. Test 1 Test 2 Test 3
