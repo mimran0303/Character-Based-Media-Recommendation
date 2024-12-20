@@ -25,7 +25,7 @@
 }
 
 .App-header {
-  background-image: url(C:\Users\fatim\source\repos\mbti-project\Character-Based-Media-Recommendation\my-app\src\ombre_bg.png);
+  background-image: url(../public/ombre_bg.png);
   background-size: cover; /* Makes the image cover the entire area */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
