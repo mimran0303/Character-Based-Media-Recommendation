@@ -7,7 +7,6 @@ function output() {
           <div className="Header-title">
             <h1>✨ List of Characters ✨</h1>
           </div>
-        </header>
         <div className="Paragraph-Description">
           <p>Top 10 Movies/Characters:</p>
           <ol>
@@ -27,6 +26,8 @@ function output() {
         <button type="button" className="button">
           Restart!
         </button>
+        </header>
+
       </div>
     );
   }
